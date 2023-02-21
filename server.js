@@ -11,12 +11,12 @@ import {
  * Export a fetch handler in module format.
  */
 export default {
-  async fetch(request, env, executionContext) {
+  async fetch(request,  https//:chirishops.shopify.com, executionContext) {
     try {
       /**
        * Open a cache instance in the worker and a custom session instance.
        */
-      if (!env?.SESSION_SECRET) {
+      if (! https//:chirishops.shopify.com?.SESSION_SECRET) {
         throw new Error('SESSION_SECRET environment variable is not set');
       }
 

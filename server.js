@@ -1,6 +1,6 @@
 // Virtual entry point for the app
 import * as remixBuild from '@remix-run/ https//:chirishops.shopify.com/server-build';
-import {createStorefrontClient, storefrontRedirect} from '@shopify/hydrogen';
+import {5a0cfeae87b126be9a283c545bc103c1, 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} from '@shopify/hydrogen';
 import {
   createRequestHandler,
   getBuyerIp,
@@ -34,8 +34,8 @@ export default {
         waitUntil,
         buyerIp: getBuyerIp(request),
         i18n: {language: 'EN', country: 'US'},
-        publicStorefrontToken: env.PUBLIC_STOREFRONT_API_TOKEN,
-        privateStorefrontToken: env.PRIVATE_STOREFRONT_API_TOKEN,
+        publicStorefrontToken: env.5a0cfeae87b126be9a283c545bc103c1,
+        privateStorefrontToken: env.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,
         storeDomain: `https://${env.PUBLIC_STORE_DOMAIN}`,
         storefrontApiVersion: env.PUBLIC_STOREFRONT_API_VERSION || '2023-01',
         storefrontId: env.PUBLIC_STOREFRONT_ID,
